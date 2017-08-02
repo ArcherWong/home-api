@@ -7,7 +7,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "heroku": "NODE_ENV=production node --harmony index"
   },
   "author": "",
   "license": "ISC",
