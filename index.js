@@ -26,7 +26,7 @@ router.post('/upload', upload.any(), async ( ctx ) => {
   ctx.body = 'upload success';
 });
 
-app.use(cors({origin: 'wangjiechang.me'}));
+app.use(cors({allowHeaders: 'wangjiechang.me'}));
 app.use(logger());
 app.use(static(__dirname + '/public'));
 app.use(router.routes());
