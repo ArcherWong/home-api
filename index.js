@@ -38,5 +38,5 @@ app.on('error', (err, ctx) => {
 
 const port = process.env.PORT || 3000;
 app.listen(port, function () {
-  console.log(`${pkg.name} listening on port ${port}`);
+  console.log(`listening on port ${port}`);
 });
